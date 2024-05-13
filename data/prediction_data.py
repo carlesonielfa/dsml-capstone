@@ -15,7 +15,7 @@ def get_prediction_data(clean_data_file_name, station_information_file_name):
     prediction_data_raw = merge[["station_id", "year", "month", "day",
                                  "hour", "num_docks_available", "capacity", "percentage_docks_available"]]
 
-    prediction_data_raw.to_csv("prediction_data_raw.csv", index=False)
+    prediction_data_raw.to_parquet("prediction_data_raw.parquet", index=False)
 
     merge = merge[["station_id", "year", "month", "day",
                    "hour", "percentage_docks_available"]]
@@ -34,7 +34,7 @@ def get_prediction_data(clean_data_file_name, station_information_file_name):
 
         prediction_data = pd.concat([prediction_data, ctx], ignore_index=True)
 
-    prediction_data.to_csv("prediction_data.csv", index=False)
+    prediction_data.to_parquet("prediction_data.parquet", index=False)
 
 if __name__ == "__main__":
     get_prediction_data("cleaned_data.parquet", "station_information.csv")
