@@ -1,0 +1,4 @@
+#23/05/2024
+#Valores de CTX nayores de 1
+#Doc Jacint hay que cambiar los numeros de float a int
+#Los modelos ahora predicen mucuho menos. R2 de 0,82 a 0,37
