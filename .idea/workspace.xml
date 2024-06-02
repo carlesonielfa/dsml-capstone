@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4940402-9e3b-4364-aa38-473913ca7f9e" name="Changes" comment="session 26/05/2024" />
+    <list default="true" id="d4940402-9e3b-4364-aa38-473913ca7f9e" name="Changes" comment="session 26/05/2024">
+      <change afterPath="$PROJECT_DIR$/data/bank_holidays_bcn.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/metadata_sample_submission.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/prediction_raw_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/station_information.csv" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,6 +55,7 @@
     "Python.bicing_dowloadWindows.executor": "Debug",
     "Python.prediction_data.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "quim__2",
     "last_opened_file_path": "C:/Users/Quim Bassa/Documents/Github/dsml-capstone/venv",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
