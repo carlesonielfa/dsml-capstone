@@ -114,7 +114,14 @@ def get_prediction_raw_data(clean_data_file_path,
     meteo_data['data'] = pd.to_datetime(meteo_data['data'])
 
     prediction_raw_data = prediction_raw_data.merge(meteo_data[["data", "calor", "lluvia"]], left_on="datetime",
-                                                    right_on="data", how="left")
+                                                    right_on="data", how="left").drop(columns="data")
+
+    # Transform dtype columns
+    prediction_raw_data["calor"] = prediction_raw_data["calor"].fillna(0).astype(bool)
+    prediction_raw_data["lluvia"] = prediction_raw_data["lluvia"].fillna(0).astype(bool)
+
+    prediction_raw_data["station_id"] = prediction_raw_data["station_id"].astype(str)
+    prediction_raw_data["post_code"] = prediction_raw_data["post_code"].astype(str)
 
     #  Export dataFrame
     prediction_raw_data.to_parquet("../data/prediction_raw_data.parquet", index=False)
