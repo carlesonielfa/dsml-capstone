@@ -14,8 +14,8 @@ def remove_datetime_duplicates(df):
     return result
 
 
-def read_cleaned_data_parquet(filename: str) -> pd.DataFrame:
-    table = pq.read_table(filename)
+def read_cleaned_data_parquet(filename_path: str) -> pd.DataFrame:
+    table = pq.read_table(filename_path)
     cleaned_data = table.to_pandas()
     return cleaned_data
 
@@ -23,12 +23,14 @@ def read_cleaned_data_parquet(filename: str) -> pd.DataFrame:
 def get_prediction_raw_data(clean_data_file_path,
                             station_information_file_path,
                             metadata_sample_submission_path,
-                            bank_holidays_bcn_path):
+                            bank_holidays_bcn_path,
+                            meteo_data_path):
     cleaned_data = read_cleaned_data_parquet(clean_data_file_path)
 
     station_information = pd.read_csv(station_information_file_path)
     metadata_sample_submission = pd.read_csv(metadata_sample_submission_path)
     bank_holidays_bcn = pd.read_csv(bank_holidays_bcn_path)
+    meteo_data = pd.read_csv(meteo_data_path)
 
     # Add capacity for each station_id
     merge = cleaned_data.merge(station_information[["station_id", "capacity", "lat", "lon", "altitude", "post_code"]],
@@ -107,6 +109,13 @@ def get_prediction_raw_data(clean_data_file_path,
     holiday_dates_list = bank_holidays_bcn["holiday_date"].unique()
     prediction_raw_data["is_holidays"] = prediction_raw_data["date"].isin(holiday_dates_list)
 
+    # Add meteo data
+    meteo_data['data'] = pd.to_datetime(meteo_data['data']).dt.strftime('%Y-%m-%d %H:%M:%S')
+    meteo_data['data'] = pd.to_datetime(meteo_data['data'])
+
+    prediction_raw_data = prediction_raw_data.merge(meteo_data[["data", "calor", "lluvia"]], left_on="datetime",
+                                                    right_on="data", how="left")
+
     #  Export dataFrame
     prediction_raw_data.to_parquet("../data/prediction_raw_data.parquet", index=False)
 
@@ -115,4 +124,5 @@ if __name__ == "__main__":
     get_prediction_raw_data("../data/cleaned_data.parquet",
                             "../data/station_information.csv",
                             metadata_sample_submission_path="../data/metadata_sample_submission.csv",
-                            bank_holidays_bcn_path="../data/bank_holidays_bcn.csv")
+                            bank_holidays_bcn_path="../data/bank_holidays_bcn.csv",
+                            meteo_data_path="../data/valores_booleanos_meteo.csv")
