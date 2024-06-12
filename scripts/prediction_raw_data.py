@@ -25,6 +25,7 @@ def get_prediction_raw_data(clean_data_file_path,
                             metadata_sample_submission_path,
                             bank_holidays_bcn_path,
                             meteo_data_path):
+
     cleaned_data = read_cleaned_data_parquet(clean_data_file_path)
 
     station_information = pd.read_csv(station_information_file_path)
