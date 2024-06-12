@@ -128,8 +128,8 @@ def get_prediction_raw_data(clean_data_file_path,
 
 
 if __name__ == "__main__":
-    get_prediction_raw_data("../data/cleaned_data.parquet",
-                            "../data/station_information.csv",
+    get_prediction_raw_data(clean_data_file_path="../data/cleaned_data.parquet",
+                            station_information_file_path="../data/station_information.csv",
                             metadata_sample_submission_path="../data/metadata_sample_submission.csv",
                             bank_holidays_bcn_path="../data/bank_holidays_bcn.csv",
                             meteo_data_path="../data/valores_booleanos_meteo.csv")
