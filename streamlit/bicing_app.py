@@ -1,5 +1,5 @@
 import streamlit as st
-from map_view import bike_station_status
+from maintenance import bike_station_status, maintenance_calendar
 
 # Title
 st.title("BICING APP")
@@ -73,6 +73,8 @@ st.write(
 )
 # Map
 bike_station_status()
+# Calendar
+maintenance_calendar()
 
 # Temporal series analysis
 st.write(
