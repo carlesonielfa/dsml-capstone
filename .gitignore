@@ -162,3 +162,8 @@ cython_debug/
 
 # mac shits
 .DS_Store
+/.idea/misc.xml
+/.idea/inspectionProfiles/profiles_settings.xml
+/notebooks/Untitled.ipynb
+/notebooks/Untitled1.ipynb
+/.idea/vcs.xml
