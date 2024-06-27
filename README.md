@@ -30,3 +30,5 @@ streamlit run scripts/bicing_app.py
 - `notebooks/visualize_maintenance.ipynb`: Notebook to visualize the maintenance information and to create and view the graphics that can be seen in the streamlit app.
 
 ### Time Series
+
+- `notebooks/time_series_analysis.ipynb`: Notebook for the time series analysis of the data.
