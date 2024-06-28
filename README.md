@@ -22,7 +22,7 @@ Capstone Project Repo for Data Science and Machine Learning postgraduate course
 To launch the streamlit app, run the following command in the terminal:
 
 ```bash
-streamlit run scripts/bicing_app.py
+streamlit run streamlit/bicing_app.py
 ```
 
 ### Station Maintenance
