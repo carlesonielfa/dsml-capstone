@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bde8a54b-37aa-4484-8f38-c8beb438f378" name="Changes" comment="get_cleaned_data.ipynb">
+      <change beforePath="$PROJECT_DIR$/notebooks/model_v1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/model_v1.ipynb" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="prediction_data_script" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;QuimBassa&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/carlesonielfa/dsml-capstone.git&quot;,
+    &quot;accountId&quot;: &quot;c6a9e784-f697-461f-95d5-dd00551ce546&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2hbI9pnSlsFh3nHzTCmGbk9x572" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;model__v1&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Quim Bassa\Documents\Github\dsml-capstone\notebooks" />
+      <recent name="C:\Users\Quim Bassa\Documents\Github\dsml-capstone\scripts" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-babbdf50b680-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.15989.155" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task id="LOCAL-00001" summary="session 04/06/2024">
+      <option name="closed" value="true" />
+      <created>1717525237413</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1717525237413</updated>
+    </task>
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bde8a54b-37aa-4484-8f38-c8beb438f378" name="Changes" comment="session 04/06/2024" />
+      <created>1717856203405</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1717856203405</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add station_information.csv">
+      <option name="closed" value="true" />
+      <created>1717856251579</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1717856251579</updated>
+    </task>
+    <task id="LOCAL-00003" summary="modify gitignore">
+      <option name="closed" value="true" />
+      <created>1717858915409</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1717858915410</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add prediction_raw_data.py">
+      <option name="closed" value="true" />
+      <created>1717862091539</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1717862091539</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add meteo_data">
+      <option name="closed" value="true" />
+      <created>1717922991209</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1717922991209</updated>
+    </task>
+    <task id="LOCAL-00006" summary="convert calor, lluvia to bool">
+      <option name="closed" value="true" />
+      <created>1717951050149</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1717951050149</updated>
+    </task>
+    <task id="LOCAL-00007" summary="start streamlit">
+      <option name="closed" value="true" />
+      <created>1718174253056</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1718174253056</updated>
+    </task>
+    <task id="LOCAL-00008" summary="moving bicing_download.py">
+      <option name="closed" value="true" />
+      <created>1718174571011</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1718174571011</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add bank holidays python">
+      <option name="closed" value="true" />
+      <created>1718174896984</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1718174896984</updated>
+    </task>
+    <task id="LOCAL-00010" summary="add bank holidays python">
+      <option name="closed" value="true" />
+      <created>1718175450786</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1718175450786</updated>
+    </task>
+    <task id="LOCAL-00011" summary="add bank holidays python">
+      <option name="closed" value="true" />
+      <created>1718176584557</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1718176584557</updated>
+    </task>
+    <task id="LOCAL-00012" summary="add notebook model_v1.ipynb">
+      <option name="closed" value="true" />
+      <created>1718187177561</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1718187177561</updated>
+    </task>
+    <task id="LOCAL-00013" summary="add notebook model_v1.ipynb">
+      <option name="closed" value="true" />
+      <created>1718198560113</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1718198560114</updated>
+    </task>
+    <task id="LOCAL-00014" summary="add notebook model_v1.ipynb">
+      <option name="closed" value="true" />
+      <created>1718216817834</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1718216817834</updated>
+    </task>
+    <task id="LOCAL-00015" summary="add dia on prediction_raw_data.py">
+      <option name="closed" value="true" />
+      <created>1718647275261</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1718647275261</updated>
+    </task>
+    <task id="LOCAL-00016" summary="submission 2">
+      <option name="closed" value="true" />
+      <created>1718657036944</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1718657036944</updated>
+    </task>
+    <task id="LOCAL-00017" summary="add csv valores meteo">
+      <option name="closed" value="true" />
+      <created>1718901024082</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1718901024082</updated>
+    </task>
+    <task id="LOCAL-00018" summary="add prediction_raw_data.parquet">
+      <option name="closed" value="true" />
+      <created>1718901119766</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1718901119766</updated>
+    </task>
+    <task id="LOCAL-00019" summary="add metadata_sample_submission.csv">
+      <option name="closed" value="true" />
+      <created>1718901171814</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1718901171814</updated>
+    </task>
+    <task id="LOCAL-00020" summary="add bicing_download_windows.py">
+      <option name="closed" value="true" />
+      <created>1719335322392</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1719335322392</updated>
+    </task>
+    <task id="LOCAL-00021" summary="add Recolecta_datos_meteocat.ipynb">
+      <option name="closed" value="true" />
+      <created>1719336452273</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1719336452273</updated>
+    </task>
+    <task id="LOCAL-00022" summary="get_cleaned_data.ipynb">
+      <option name="closed" value="true" />
+      <created>1719336906684</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1719336906684</updated>
+    </task>
+    <task id="LOCAL-00023" summary="get_cleaned_data.ipynb">
+      <option name="closed" value="true" />
+      <created>1719337869462</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1719337869462</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="session 04/06/2024" />
+    <MESSAGE value="add station_information.csv" />
+    <MESSAGE value="modify gitignore" />
+    <MESSAGE value="add prediction_raw_data.py" />
+    <MESSAGE value="add meteo_data" />
+    <MESSAGE value="convert calor, lluvia to bool" />
+    <MESSAGE value="start streamlit" />
+    <MESSAGE value="moving bicing_download.py" />
+    <MESSAGE value="add bank holidays python" />
+    <MESSAGE value="add notebook model_v1.ipynb" />
+    <MESSAGE value="add dia on prediction_raw_data.py" />
+    <MESSAGE value="submission 2" />
+    <MESSAGE value="add csv valores meteo" />
+    <MESSAGE value="add prediction_raw_data.parquet" />
+    <MESSAGE value="add metadata_sample_submission.csv" />
+    <MESSAGE value="add bicing_download_windows.py" />
+    <MESSAGE value="add Recolecta_datos_meteocat.ipynb" />
+    <MESSAGE value="get_cleaned_data.ipynb" />
+    <option name="LAST_COMMIT_MESSAGE" value="get_cleaned_data.ipynb" />
+  </component>
+</project>
